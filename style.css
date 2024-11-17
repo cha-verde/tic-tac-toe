@@ -4,6 +4,14 @@ body{
 }
 
 .container{
+   display: grid;
+   align-items: center;
+   justify-items: center;
+    background-color: red;
+    height: 100%;
+}
+
+.board{
     background-color: blue;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -12,7 +20,10 @@ body{
     height: 300px;
 }
 
-div{
+.shape-box{
     border: 2px solid black;
     background-color: cornsilk;
+    display: grid;
+    align-items: center;
+    justify-items: center;
 }
